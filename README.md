@@ -1,4 +1,4 @@
-# SQL Builder Pro 🚀
+# SQL Builder Pro
 
 A Streamlit-based utility that generates Snowflake SQL scripts from CSV and Excel files.
 
