@@ -1,6 +1,12 @@
 # SQL Builder Pro
 
-A Streamlit-based utility that generates Snowflake SQL scripts from CSV and Excel files.
+## Live Demo
+
+https://sql-builder-pro.streamlit.app
+
+## Overview
+
+Generate Snowflake DDL, FILE FORMAT, STAGE, COPY INTO and MERGE scripts from CSV or Excel files.
 
 ## Features
 
@@ -27,7 +33,3 @@ A Streamlit-based utility that generates Snowflake SQL scripts from CSV and Exce
 pip install -r requirements.txt
 
 streamlit run app.py
-
-## Live Demo
-
-https://sql-builder-pro.streamlit.app
