@@ -1,24 +1,29 @@
-# SQL Builder Pro
+# SQL Builder Pro 🚀
 
-Generate Snowflake SQL scripts from CSV and Excel files.
+A Streamlit-based utility that generates Snowflake SQL scripts from CSV and Excel files.
 
-Features
+## Features
 
-✅ CSV Upload
-✅ Excel Upload
-✅ Data Preview
-✅ Data Profiling
-✅ Null Count Analysis
-✅ Distinct Value Analysis
-✅ CREATE TABLE Generator
-✅ FILE FORMAT Generator
-✅ STAGE Generator
-✅ COPY INTO Generator
-✅ MERGE Generator
-✅ Full Script Download
+- CSV Upload
+- Excel Upload
+- Data Preview
+- Data Profiling
+- Snowflake CREATE TABLE Generation
+- FILE FORMAT Generation
+- STAGE Generation
+- COPY INTO Generation
+- MERGE Generation
+- Download Full SQL Package
 
-Built with:
+## Tech Stack
+
 - Python
-- Pandas
 - Streamlit
+- Pandas
 - Snowflake SQL
+
+## Run Locally
+
+pip install -r requirements.txt
+
+streamlit run app.py
